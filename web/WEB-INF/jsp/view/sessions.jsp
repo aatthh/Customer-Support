@@ -8,6 +8,6 @@
         <c:out value="${s.id} - ${s.getAttribute('username')}" />
         <c:if test="${s.id == pageContext.session.id}">&nbsp;(you)</c:if>
         &nbsp;- last active
-        ${wrox:timeIntervalToString(timestamp - s.lastAccessedTime)} ago<br />
+        ${wrox:TimeUtils.intervalToString(timestamp - s.lastAccessedTime)} ago<br/>
     </c:forEach>
 </template:basic>

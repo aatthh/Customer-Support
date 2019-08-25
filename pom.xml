@@ -28,11 +28,7 @@
             <version>2.3.1</version>
             <scope>provided</scope>
         </dependency>
-<dependency>
-    <groupId>javax.servlet</groupId>
-    <artifactId>jstl</artifactId>
-    <version>1.2</version>
-</dependency>
+
         <dependency>
             <groupId>javax.el</groupId>
             <artifactId>javax.el-api</artifactId>
@@ -46,12 +42,8 @@
             <version>1.2.1</version>
             <scope>compile</scope>
         </dependency>
-<dependency>
-    <groupId>javax</groupId>
-    <artifactId>javaee-api</artifactId>
-    <version>8.0</version>
-    <scope>provided</scope>
-</dependency>
+        
+
         <dependency>
             <groupId>org.glassfish.web</groupId>
             <artifactId>javax.servlet.jsp.jstl</artifactId>
@@ -79,7 +71,13 @@
             <version>3.3.2</version>
             <scope>compile</scope>
         </dependency>
+		<dependency>
+		    <groupId>javax.servlet</groupId>
+		    <artifactId>jstl</artifactId>
+		    <version>1.2</version>
+		</dependency>        
     </dependencies>
+
 
     <build>
         <sourceDirectory>source/production/java</sourceDirectory>
